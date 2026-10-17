@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: kozhanov-abdualim-devops
+    container_name: kozhanov-abdualim-container
+    ports:
+      - "5000:5000"
+    environment:
+      STUDENT_NAME: Abdualim
+      STUDENT_SURNAME: Kozhanov
+      STUDENT_GROUP: IT2-2313
+      STUDENT_ID: "37019"
